@@ -5,7 +5,7 @@ import { Button, Typography } from "@mui/material";
 
 export default function Home() {
   return (
-    <div className="bg-black text-white flex flex-col">
+    <div className="bg-black flex flex-col">
       <header className="bg-transparent py-6 flex justify-center items-center">
         <Image
           src="/agency-banner-white.png"
@@ -41,7 +41,7 @@ export default function Home() {
               alt="Gabrielle Chanel Paris Photoshoot"
             />
           </div>
-          <div className="col-span-1 py-6 px-6">
+          <div className="col-span-1 py-6 px-6 text-white">
             <p className="text-5xl font-black uppercase mb-4">What We Do for your business?</p>
             <p className="text-2xl font-normal mb-4">We take new clients to your door through paid advertisement on Google, Facebook, Instagram and YouTube.
               This way, you can focus on what really matters in your business - without having to worry about where your next client is coming from.</p>
@@ -75,7 +75,7 @@ export default function Home() {
           <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
         </section>
       </main>
-      <footer className="py-4 px-8">
+      <footer className="py-4 px-8 text-white">
         <p className="text-center text-xs">Part of the <a href="https://alany.co" className="underline decoration-alany-pink">Alany Coorporation</a> © 2024 Alany Agency</p>
         <p className="text-center text-xs">View our <a href="/" className="underline decoration-alany-blue">Privacy Policy</a>, <a href="/" className="underline decoration-alany-blue">Earnings Disclaimer</a>, <a href="/" className="underline decoration-alany-blue">Terms Of Service</a>.</p>
       </footer>
