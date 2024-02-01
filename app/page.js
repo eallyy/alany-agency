@@ -5,7 +5,7 @@ import { Button, Typography } from "@mui/material";
 
 export default function Home() {
   return (
-    <div className="bg-black flex flex-col">
+    <div className="bg-black text-white flex flex-col">
       <header className="bg-transparent py-6 flex justify-center items-center">
         <Image
           src="/agency-banner-white.png"
