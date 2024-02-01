@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.decoration-alany-blue {
+  text-decoration-color: #00d2ff;
+}
+
+.decoration-alany-pink {
+  text-decoration-color: #ff00f0;
+}
