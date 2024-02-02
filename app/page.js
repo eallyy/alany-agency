@@ -49,6 +49,7 @@ export default function Home() {
               className="flex flex-col"
               variant="outlined"
               color="secondary"
+              href="#book-your-call-now"
               sx={{ color: "#ff00f0", borderColor: "#ff00f0", "&:hover": { borderColor: "#00d2ff", color: "#00d2ff" } }}
               >
               <div className="px-6 py-2">
@@ -83,6 +84,7 @@ export default function Home() {
 
         <section className="container mx-auto w-full py-12 flex justify-center items-center">
           <div
+            id="book-your-call-now"
             className="calendly-inline-widget w-full h-[800px] md:h-[900px] lg:h-[700px]"
             data-url="https://calendly.com/promiroffical/30min?background_color=000000&text_color=ffffff&primary_color=00d2ff">
           </div>
