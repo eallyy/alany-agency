@@ -39,3 +39,7 @@ body {
 .decoration-alany-pink {
   text-decoration-color: #ff00f0;
 }
+
+.calendly-inline-widget {
+  overflow-y: hidden !important;
+}
