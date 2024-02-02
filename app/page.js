@@ -20,14 +20,11 @@ export default function Home() {
         pb-6
         ">
           <div className="col-span-12">
-            <p className="font-bold uppercase text
-            text-3xl">More Than Products, It's People</p>
+            <p className="font-bold uppercase text text-3xl">More Than Products, It's People</p>
 
           </div>
           <div className="col-span-12">
-            <p className="font-normal uppercase
-            text-xl
-            sm:text-3xl">Cultivate Lasting Impact with Alany's Holistic Approach</p>
+            <p className="font-normal uppercase text-xl sm:text-3xl">Cultivate Lasting Impact with Alany's Holistic Approach</p>
 
           </div>
         </section>
@@ -86,11 +83,7 @@ export default function Home() {
 
         <section className="container mx-auto w-full py-12 flex justify-center items-center">
           <div
-            className="calendly-inline-widget w-full
-            h-[800px]
-            md:h-[900px]
-            lg:h-[700px]
-            "
+            className="calendly-inline-widget w-full h-[800px] md:h-[900px] lg:h-[700px]"
             data-url="https://calendly.com/promiroffical/30min?background_color=000000&text_color=ffffff&primary_color=00d2ff">
           </div>
           <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
