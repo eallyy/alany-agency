@@ -20,11 +20,11 @@ export default function Home() {
         pb-6
         ">
           <div className="col-span-12">
-            <p className="font-bold uppercase text text-3xl">More Than Products, It's People</p>
+            <p className="font-bold uppercase text text-3xl">More Than Products, It&apos;s People</p>
 
           </div>
           <div className="col-span-12">
-            <p className="font-normal uppercase text-xl sm:text-3xl">Cultivate Lasting Impact with Alany's Holistic Approach</p>
+            <p className="font-normal uppercase text-xl sm:text-3xl">Cultivate Lasting Impact with Alany&apos;s Holistic Approach</p>
 
           </div>
         </section>
