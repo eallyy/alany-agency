@@ -43,7 +43,7 @@ export default function Home() {
         </section>
 
 
-        <section className="container mx-auto w-full py-12 px-6 grid justify-center items-center">
+        <section className="container mx-auto w-full py-12 px-6 grid justify-center items-center text-center">
           <div className="col-span">
             <Button
               className="flex flex-col"
