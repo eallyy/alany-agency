@@ -19,11 +19,11 @@ export default function Home() {
         md:py-6 md:pb-12
         pb-6
         ">
-          <div className="col-span-12">
+          <div className="col-span-12 text-white">
             <p className="font-bold uppercase text text-3xl">More Than Products, It&apos;s People</p>
 
           </div>
-          <div className="col-span-12">
+          <div className="col-span-12 text-white">
             <p className="font-normal uppercase text-xl sm:text-3xl">Cultivate Lasting Impact with Alany&apos;s Holistic Approach</p>
 
           </div>
