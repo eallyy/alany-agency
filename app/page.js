@@ -21,16 +21,13 @@ export default function Home() {
         ">
           <div className="col-span-12">
             <p className="font-bold uppercase text
-            text-3xl
-
-            ">More Than Products, It's People</p>
+            text-3xl">More Than Products, It's People</p>
 
           </div>
           <div className="col-span-12">
             <p className="font-normal uppercase
             text-xl
-            sm:text-3xl
-            ">Cultivate Lasting Impact with Alany's Holistic Approach</p>
+            sm:text-3xl">Cultivate Lasting Impact with Alany's Holistic Approach</p>
 
           </div>
         </section>
