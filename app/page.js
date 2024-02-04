@@ -20,17 +20,24 @@ export default function Home() {
         pb-6
         ">
           <div className="col-span-12 text-white">
-            <p className="font-bold uppercase text text-3xl">More Than Products, It&apos;s People</p>
+            <p className="font-bold uppercase text
+            text-3xl
+            md:text-4xl
+            lg:text-5xl
+            ">More Than Products, It&apos;s People</p>
 
           </div>
           <div className="col-span-12 text-white">
-            <p className="font-normal uppercase text-xl sm:text-3xl">Cultivate Lasting Impact with Alany&apos;s Holistic Approach</p>
+            <p className="font-normal uppercase
+            text-2xl
+            md:text-3xl
+            ">Cultivate Lasting Impact with Alany&apos;s Holistic Approach</p>
 
           </div>
         </section>
 
 
-        <section className="container mx-auto w-full md:px-60 flex justify-center items-center">
+        <section className="container mx-auto w-full xl:px-60 flex justify-center items-center">
           <div className="aspect-video w-screen">
             <iframe
               src="https://player.vimeo.com/video/896231378?h=66672d7d53"
@@ -62,6 +69,24 @@ export default function Home() {
           </div>
         </section>
 
+
+        <section className="container mx-auto w-full grid lg:grid-cols-2 items-center">
+          <div className="col-span-1 px-6">
+            <Image
+              src="/what_we_do.jpg"
+              width={512}
+              height={512}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto' }}
+              alt="Gabrielle Chanel Paris Photoshoot"
+            />
+          </div>
+          <div className="col-span-1 py-6 px-6 text-white">
+            <p className="text-5xl font-black uppercase mb-4">What We Do for your business?</p>
+            <p className="text-2xl font-normal mb-4">We take new clients to your door through paid advertisement on Google, Facebook, Instagram and YouTube.
+              This way, you can focus on what really matters in your business - without having to worry about where your next client is coming from.</p>
+          </div>
+        </section>
 
         <section className="container mx-auto w-full grid lg:grid-cols-2 items-center">
           <div className="col-span-1 px-6">
