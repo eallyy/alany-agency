@@ -177,7 +177,7 @@ export default function Home() {
         <section className="container mx-auto w-full flex justify-center items-center">
           <div
             id="book-your-call-now"
-            className="calendly-inline-widget w-full h-[800px] md:h-[900px] lg:h-[700px]"
+            className="calendly-inline-widget w-full h-[860px] md:h-[900px] lg:h-[700px]"
             data-url="https://calendly.com/alany-agency-emir/15min-intro-call?background_color=000000&text_color=ffffff&primary_color=00d2ff">
           </div>
           <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
